@@ -46,6 +46,19 @@ public class GiftsMod
 		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.melon, 3), 6);
 		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.golden_apple, 2), 2);
 		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.golden_carrot, 1), 2);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.iron_shovel, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.iron_hoe, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.iron_pickaxe, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.iron_sword, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.iron_axe, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.diamond_shovel, 1), 5);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.diamond_hoe, 1), 3);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.diamond_pickaxe, 1), 3);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.diamond_sword, 1), 3);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.diamond_axe, 1), 3);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.bow, 1), 6);
+		WeightedRandomGift.addItemStackToGifts(new ItemStack(Items.arrow, 16), 6);
+
 		blockPresent = new BlockPresent(Material.circuits).setBlockName("blockPresent");
 		GameRegistry.registerBlock(blockPresent, "BlockPresent");
 	}
