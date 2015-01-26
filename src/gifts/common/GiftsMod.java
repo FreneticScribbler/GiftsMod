@@ -67,6 +67,8 @@ public class GiftsMod
 	public void init(FMLInitializationEvent event)
 	{
 		GameRegistry.addRecipe(new ItemStack(blockPresent), new Object[] { "XXX", "XCX", "XXX", 'X', Blocks.wool, 'C', Blocks.chest });
+
+		GameRegistry.registerWorldGenerator(new WorldGenHandler(), 0);
 	}
 
 	@EventHandler
